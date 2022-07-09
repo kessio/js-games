@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <style>
+        #live-game {
+            display: none;
+        }
+        .start-game {
+            display: block
+        }
+
+    </style>
+
+    </head>
+    <body>
+        <h1>Time left: <span id="countdown"></span></h1>
+        <h4>Click Play to start the game</h4>
+        <h3>Your Score: <span id="score"></span></h3>
+        <h3>Computer Score: <span id="score-comp"></span></h3>
+        <button class="start-game">Play</button>
+        <div id="live-game">
+        <h2>Computer Choice: <span id="computer-choice"></span></h2>
+        <h2>Your Choice: <span id="user-choice"></span></h2>
+        <h2>Result: <span id="result"></span></h2>
+        <button class="ans" id="rock">Rock</button>
+        <button class="ans" id="paper">Paper</button>
+        <button class="ans" id="scissors">Scissors</button>
+        </div>
+
+        <script src="app.js"></script>
+        <script src="test.js"></script>
+    </body>
+</html>
